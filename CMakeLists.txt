@@ -29,6 +29,8 @@ find_package(KF6 REQUIRED COMPONENTS
 
 ecm_find_qmlmodule(org.kde.kirigami REQUIRED)
 
+add_executable(kirigami-hello)
+
 add_subdirectory(src)
 
 install(PROGRAMS org.kde.tutorial.desktop DESTINATION ${KDE_INSTALL_APPDIR})

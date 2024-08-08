@@ -1,5 +1,3 @@
-add_executable(kirigami-hello)
-
 ecm_add_qml_module(kirigami-hello
     URI
     org.kde.tutorial
