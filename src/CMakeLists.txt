@@ -1,8 +1,3 @@
-ecm_add_qml_module(kirigami-hello
-    URI
-    org.kde.tutorial
-)
-
 target_sources(kirigami-hello
     PRIVATE
     main.cpp

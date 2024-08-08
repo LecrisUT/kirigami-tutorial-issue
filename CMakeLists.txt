@@ -30,6 +30,10 @@ find_package(KF6 REQUIRED COMPONENTS
 ecm_find_qmlmodule(org.kde.kirigami REQUIRED)
 
 add_executable(kirigami-hello)
+ecm_add_qml_module(kirigami-hello
+        URI
+        org.kde.tutorial
+)
 
 add_subdirectory(src)
 
