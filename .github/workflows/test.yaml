@@ -10,7 +10,7 @@ jobs:
       - run: |
           sudo dnf install -y git
           sudo dnf groupinstall -y "Development Tools" "Development Libraries"
-          sudo dnf install -y cmake extra-cmake-modules kf6-kirigami2-devel kf6-ki18n-devel kf6-kcoreaddons-devel kf6-kiconthemes-devel qt6-qtbase-devel qt6-qtdeclarative-devel qt6-qtquickcontrols2-devel qqc2-desktop-style
+          sudo dnf install -y cmake extra-cmake-modules kf6-kirigami2-devel kf6-ki18n-devel kf6-kcoreaddons-devel kf6-kiconthemes-devel qt6-qtbase-devel qt6-qtdeclarative-devel qt6-qtquickcontrols2-devel kf6-qqc2-desktop-style
       - uses: actions/checkout@v4
       - run: |
           cmake -B build
